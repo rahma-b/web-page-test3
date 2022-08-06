@@ -1,0 +1,132 @@
+
+/* background & margin & font to the whole page*/
+body {
+  margin: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 100%;
+  font-family: 'Roboto Mono', monospace;
+  /*background-color: #BD9971;*/
+  background-image: url('https://img.freepik.com/free-photo/golden-background-with-palm-tree_53876-108441.jpg?t=st=1655848100~exp=1655848700~hmac=83f1f45eb1538f99a05314d8d750559793ddfe3b1b018e1f2992cffbd4063e77&w=996');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  }
+
+/* navigation bar style*/  
+a
+{
+    font-size: 13px;
+    padding: 20px; 
+    color: white;
+    text-align: center;
+}
+
+nav
+{
+    background-color: #333;    
+}
+
+
+/* Header Style*/
+.c-site-header 
+{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background-color: #dccab1;
+  padding-bottom: 10px;
+  
+}
+
+
+/*grid style*/
+.grid-flex
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+  .grid-container
+{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+ .grid-style
+ {
+    
+    background-color: #dccab1;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+ }
+
+ 
+ .center-p 
+    {
+       text-align: center;
+    }
+
+    h3
+    {
+       text-align: center;
+       text-decoration: underline;
+    }
+
+
+/* video section style */    
+#vid-id
+    {
+        width: 600px;
+        height: 428px; 
+    }
+    
+    div.center 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+/*footer section style */
+.c-site-footer
+{
+    background-color: #dccab1;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 30px;
+
+}
+
+#footer-a 
+{
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
